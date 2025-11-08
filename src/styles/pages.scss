@@ -193,12 +193,14 @@
     }
 
     @media (min-width:1024px) {
-        section{
+        section {
             width: 80%;
             margin: auto;
         }
+
         .contactForm {
             flex-direction: row;
+            gap: 1.5rem;
 
             .colS {
                 width: 50%;
