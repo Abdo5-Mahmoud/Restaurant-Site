@@ -7,7 +7,7 @@ export default function BookingForm() {
     <div className="formContainer">
       <h3>Book Your Tabel Now</h3>
       <div className="formSection">
-        <img loading="lazy" src="/img/book_left_image.jpg" alt="" />
+        <img loading="lazy" src="/img/book_left_image.jpg" alt="book img" />
 
         <form action="post">
           <h4>Reservation</h4>

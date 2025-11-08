@@ -8,7 +8,7 @@ export default function Card({ to, img, description }: CardProps) {
   return (
     <div className="food">
       <Link to={to}>
-        <img loading="lazy" src={img} alt="" />
+        <img loading="lazy" src={img} alt={`${description} image`} />
       </Link>
       <Link to={to}>
         <p>{description}</p>

@@ -27,7 +27,7 @@ export default function Home() {
       <section className="menuSection">
         <div className="cards">
           <div className="img">
-            <img loading="lazy" src="/img/cook_01.jpg" alt="" />
+            <img loading="lazy" src="/img/cook_01.jpg" alt="cooked meal" />
           </div>
           <div className="contentCard">
             <h2>We cook DElecious</h2>
@@ -39,7 +39,11 @@ export default function Home() {
             <Button text="Order Now" />
           </div>
           <div className="img">
-            <img loading="lazy" src="/img/cook_02.jpg" alt="" />
+            <img
+              loading="lazy"
+              src="/img/cook_02.jpg"
+              alt="second cooked meal"
+            />
           </div>
         </div>
 

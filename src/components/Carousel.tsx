@@ -30,7 +30,7 @@ export default function CarouselS({ children, src, title }: CarouselProps) {
   return (
     <div className="carousel">
       <div className="col">
-        <img loading="lazy" className="img" src={src} alt="" />
+        <img loading="lazy" className="img" src={src} alt={`${title} image `} />
       </div>
 
       <div className="col">
